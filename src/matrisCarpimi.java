@@ -48,7 +48,7 @@ public class matrisCarpimi {
                 for (int j = 0; j < ikiSutun; j++) {
                     for (int k = 0; k < birSutun; k++) {
 
-                        son[i][j] += ilkmatris[i][k] * sonraki[j][k];
+                        son[i][j] += ilkmatris[i][k] * sonraki[k][j];
 
                     }
                 }
